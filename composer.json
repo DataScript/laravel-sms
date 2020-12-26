@@ -1,0 +1,27 @@
+{
+    "name": "datascript/laravel-sms",
+    "description": "Laravel Custom SMS Provider",
+    "type": "project",
+    "license": "MIT",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Mon Mohon",
+            "email": "monmohon@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Datascript\\SmsApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Datascript\\SmsApi\\SmsApiServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
